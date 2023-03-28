@@ -9,10 +9,12 @@ function List({ todos, setTodos }) {
     const deleteTodo = todos.filter((item) => item !== i);
     setTodos(deleteTodo);
   };
+
   //tümünü siler
   const deleteAllItem = () => {
     setTodos(todos.filter((todo) => todo.isDone === false));
   };
+
   //tamamlandı olarak işaretler
   const toDoComplete = (i) => {
     setTodos(
@@ -24,6 +26,7 @@ function List({ todos, setTodos }) {
       })
     );
   };
+
   // filtreleme yapılır
   useEffect(() => {
     if (selected === "All") {
