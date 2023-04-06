@@ -1,4 +1,4 @@
-# React Todo Uygulaması
+# React Todo App
 Bu projede Context Api, Formik, Yup, uuidv4, Hooks kullanıldı.
 
 <img src="https://raw.githubusercontent.com/ktugbaa7/react-todo-app-t/master/todoapp.png" width="auto">
