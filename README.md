@@ -1,4 +1,8 @@
 # React Todo Uygulaması
+Bu projede Context Api, Formik, Yup, uuidv4, Hooks kullanıldı.
+
+<img src="https://raw.githubusercontent.com/ktugbaa7/react-todo-app-t/master/todoapp.png" width="auto">
+
 www.patika.dev
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
