@@ -1,11 +1,19 @@
 import './App.css';
-import Contacts from './components/Contacts/Contacts';
+import Content from './components/Content/index';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import { TodoProvider } from './contexts/TodoContext';
+
 
 function App() {
   return (
-    <div className="App">
-      <Contacts />
-    </div>
+    <TodoProvider>
+      <section className="todoapp">
+        <Header />
+        <Content />
+      </section>
+      <Footer />
+    </TodoProvider>
   );
 }
 
